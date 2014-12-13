@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Exercises</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <script>
+    /*
+    javaScript can use C-style comment blocks.
+    Goes over all the lines you want
+    */
+
+    // this is a single line comment
+//lab 1
+//    var name = prompt("Hi! Whats your name?");
+//    alert('nice to meet you! ' + '\n' +name + '!');
+
+//lab 2
+
+  var name = prompt('What is your name partner!');
+
+  var agentName = prompt('Partner, I need your sercrete agent name?');
+
+  var agentStory = prompt('Tell me why you picked that agent name?');
+
+  var thingToSearchFor = new RegExp(name,'g');
+  name = name.replace(thingToSearchFor,agentName);
+
+  alert( name +' ! '+' '+ ' Your Story is...\n' +' '+ agentStory );
+
+  </script>
+
+</body>
+</html>
