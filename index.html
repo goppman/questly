@@ -15,12 +15,26 @@
  <div class="well col-sm-6 col-sm-offset-3 col-xs-12">
    <form id="form" role="form">
 
+     <div id="story" class="well col-sm-6 col-sm-offset-3 col-xs-12">
+
+     </div>
+
      <div class="form-group">
        <label for="name">What is your name?</label><br>
        <input type="text" name="name" class="form-control">
      </div>
 
+     <div class="secret-name">
+       <label for="nameAgent">What is your secrete agent name?</label>
+       <input type="text" name="secret_name" class="form-control">
 
+     </div>
+
+     <div class="nameChooser">
+      <input type="checkbox" name="choice" value="decided"></input>
+      check this to use agent name.
+
+     </div>
 
        <div class="radio-small">
          <label for="quest">What is your quest?</label><br>
@@ -60,9 +74,7 @@
 
    </form>
  </div>
- <div id="story" class="well col-sm-6 col-sm-offset-3 col-xs-12">
 
- </div>
  <script src="js/questly.js"> </script>
 </body>
 </html>
