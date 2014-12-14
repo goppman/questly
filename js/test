@@ -1,0 +1,1 @@
+alert('There was once a warrior named '+ name + ' on a mighty quest indeed: ' + quest + '. ' +' Lukily, Dave was wearing lucky socks-colored '+ color +'.');
